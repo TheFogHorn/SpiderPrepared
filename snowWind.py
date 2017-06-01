@@ -2,6 +2,7 @@ from functools import reduce
 def f(x):
     return x*x
 r = map(f,[1,2,3])
+print(r)
 print(list(r))
 def fa(x,y):
     return x*10+y
